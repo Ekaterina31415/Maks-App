@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #222;
+}
+
+/*Hero*/
+
+.title {
+  margin: 50px auto;
+}
+
+.title h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+}
+
+.icon img {
+  width: 250px;
+  height: 250px;
+}
+/*Links*/
+
+.links {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  position: relative;
+  transform: skewY(-15deg);
+}
+
+li {
+  position: relative;
+  list-style: none;
+  width: 200px;
+  padding: 15px;
+  background: #9e535379;
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+
+li:hover {
+  background: #5379479f;
+  transform: translateX(-50px);
+}
+
+li::before {
+  content: '';
+  background: #2e3133;
+  width: 40px;
+  height: 100%;
+  color: #999;
+  position: absolute;
+  top: 0;
+  left: -40px;
+  transform-origin: right;
+  transform: skewY(45deg);
+  transition: 0.5s;
+
+}
+
+li:hover::before {
+  background: #7b5190;
+}
+
+li::after {
+  content:'';
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  background: #35383e;
+  transform-origin: bottom;
+  transform: skewX(45deg);
+  transition: 0.5s
+}
+
+li:hover::after {
+  background: #86589d;
+}
+
+li a {
+  text-decoration: none;
+  color: #999;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+
+li:hover a {
+  color: #fff;
+}
+
+li:last-child::after {
+  box-shadow: -120px 120px 20px rgbs(0, 0, 0, 0, 0.25);
+}
+
+/*Footer*/
+
+footer {
+  text-align: center;
+}
