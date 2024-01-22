@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Maks-App/static/css/main.d952ff43.css",
-    "main.js": "/Maks-App/static/js/main.dd32f857.js",
+    "main.js": "/Maks-App/static/js/main.ccac495c.js",
     "static/media/avatar.jpg": "/Maks-App/static/media/avatar.7ab26600951b1f6d8948.jpg",
     "index.html": "/Maks-App/index.html",
     "main.d952ff43.css.map": "/Maks-App/static/css/main.d952ff43.css.map",
-    "main.dd32f857.js.map": "/Maks-App/static/js/main.dd32f857.js.map"
+    "main.ccac495c.js.map": "/Maks-App/static/js/main.ccac495c.js.map"
   },
   "entrypoints": [
     "static/css/main.d952ff43.css",
-    "static/js/main.dd32f857.js"
+    "static/js/main.ccac495c.js"
   ]
 }
