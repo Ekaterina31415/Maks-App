@@ -71,6 +71,7 @@ body {
 ul {
   position: relative;
   transform: skewY(-15deg);
+  padding-left: 40px;
 }
 
 li {
