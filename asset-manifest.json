@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Maks-app/static/css/main.d952ff43.css",
+    "main.js": "/Maks-app/static/js/main.91ac1e30.js",
+    "static/media/avatar.jpg": "/Maks-app/static/media/avatar.7ab26600951b1f6d8948.jpg",
+    "index.html": "/Maks-app/index.html",
+    "main.d952ff43.css.map": "/Maks-app/static/css/main.d952ff43.css.map",
+    "main.91ac1e30.js.map": "/Maks-app/static/js/main.91ac1e30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d952ff43.css",
+    "static/js/main.91ac1e30.js"
+  ]
+}
