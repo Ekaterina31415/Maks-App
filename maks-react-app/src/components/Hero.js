@@ -3,7 +3,7 @@ import avatar from '../img/avatar.jpg'
 
 export default function Hero() {
   return (
-    <hero>
+    <div className='hero'>
       <div className='title'>
         <h3>nutricionist</h3>
         <h1>Maksim Akimov</h1>
@@ -11,6 +11,6 @@ export default function Hero() {
       <div className='icon'>
         <img src={avatar} alt='' />
       </div>
-    </hero>
+    </div>
   )
 }
